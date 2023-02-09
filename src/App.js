@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom'
+import Switch from 'react-switch'
+import Layout from './components/layouts'
+import Home from './components/Home/index'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Education from './components/Education'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Router> */}
+        <Routes>
+          {/* <Switch> */}
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/education" element={<Education />} />
+            </Route>
+          {/* </Switch> */}
+        </Routes>
+      {/* </Router> */}
+    </>
+  )
 }
 
-export default App;
+export default App

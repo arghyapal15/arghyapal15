@@ -1,0 +1,198 @@
+.education-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    height: 140px;
+    // padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    transition: background-color 200ms ease-in-out;
+    animation-delay: 5s;
+}
+
+.educard-img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: white;
+    margin: 2rem 1rem 0 0 ;
+}
+
+.educard-img>img {
+    width: 40px;
+}
+
+.education-details {
+    margin-left: 0.6rem;
+    line-height: .2rem;
+}
+
+.education-details>h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffff;
+}
+
+.education-details>h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    // color: rgb(33, 33, 33);
+    color: #ffff;
+}
+
+.education-details>h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.education-image {
+    // box-sizing: border-box;
+    // padding: 1rem;
+    // flex: 0.35 1;
+    // margin-top: 1rem;
+    // pointer-events: none;
+    position: relative;
+    // width: 100%;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-50%);
+    left: 25%;
+    top: 50%;
+    vertical-align: middle;
+    max-height: 90%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.education-image>img {
+    width: 30%;
+}
+
+.card-item {
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    // background-color: #e72424;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    transition: background-color 200ms ease-in-out;
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 5000ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation: bounceIn;
+
+    &:hover {
+    background-color: #2f2f2f;
+
+    h6,h5,h4{
+        color: #ffd700;
+    }
+
+}
+}
+
+
+@media screen and (max-width: 1200px)  {
+    .education-page{
+        .text-zone{
+            padding: 0 !important;
+            margin: 0 !important;
+            h1{
+                font-size: 40px;
+            }
+            .card{
+                padding: 0;
+                margin: 0;
+                // width: 100%;
+                .card-item{
+                    width: 100%;
+                    height: fit-content;
+                    padding: 0.5rem;
+                    margin-bottom: 1rem;
+                    
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .education-details{
+                        h6{
+                            font-size: .8rem;
+                        }
+                        h4{
+                            font-size: 1rem;
+                        }
+                        h5{
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+        .education-image{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 350px)  {
+    .education-page{
+        .text-zone{
+            
+            h1{
+                font-size: 40px;
+            }
+            .card{
+                width: 90%;
+                    height: fit-content;
+                    padding: 0.5rem;
+                    margin-bottom: 1rem;
+                .card-item{
+                    width: 90%;
+                    height: fit-content;
+                    padding: 0.5rem;
+                    margin-bottom: 1rem;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                    .education-details{
+                        h6{
+                            font-size: 5px;
+                        }
+                        h4{
+                            font-size: 10px;
+                        }
+                        h5{
+                            font-size: 7px;
+                        }
+                    }
+                }
+            }
+        }
+}
+}
+
