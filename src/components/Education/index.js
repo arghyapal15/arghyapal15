@@ -59,7 +59,7 @@ const Education = () => {
           </div>
         </div>
         <div className="education-image">
-          <img src={intro} alt="" />
+          <img src={intro} alt="image" />
         </div>
       </div>
       <Loader type="pacman" />

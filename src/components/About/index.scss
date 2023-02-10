@@ -2,11 +2,20 @@
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 15%;
+  // padding-top: 10%;
   margin-left: 0;
   position: absolute;
   right: 0;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    right: 2rem;
+  }
 }
 
 .cubespinner {
@@ -120,7 +129,8 @@ ul{
 //     left: 0;
 // }
   .stage-cube-cont {
-    top: 15%;
+    top: 80%;
+    // display: block;
     position: absolute;
     width: 100%;
     height: 445px !important;

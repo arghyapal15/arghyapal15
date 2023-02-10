@@ -17,6 +17,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import pic from "../../assets/images/IMG_20210627_103809@.jpg"
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -100,7 +101,8 @@ const About = () => {
           </ul>
         </div>
         <div className="stage-cube-cont">
-          <div className="cubespinner">
+          <img src={pic} alt="" />
+          {/* <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faPython} color="#DD0031" />
             </div>
@@ -119,7 +121,7 @@ const About = () => {
             <div className="face6">
               <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Loader type="pacman" />
