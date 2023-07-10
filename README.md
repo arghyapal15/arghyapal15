@@ -1,4 +1,9 @@
 # 💫 About Me:
+Hi 👋, I'm Arghya Pal,
+A passionate frontend developer from India
+
+
+
 🌱 I’m currently learning Django<br><br>👨‍💻 All of my projects are available at https://arghyapal-ab.web.app/<br><br>💬 Ask me about ReactJS<br><br>📫 How to reach me arghya.1530@gmail.com<br><br>📄 Know about my experiences https://drive.google.com/drive/folders/1zEONLvMf-NCg4q55VZNKjH0_JmEwXdfO
 
 
