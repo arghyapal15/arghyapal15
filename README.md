@@ -1,6 +1,7 @@
 # 💫 About Me:
-Hi 👋, I'm Arghya Pal,
-A passionate frontend developer from India
+
+
+Hi 👋, I'm Arghya Pal, <br>A passionate frontend developer from India<br><br><br>
 
 
 
