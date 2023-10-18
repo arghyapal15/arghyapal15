@@ -4,7 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/arghya.png'
 import './home.scss'
-import dn from '../../assets/images/Arghya_Pal_CV.pdf'
+import dn from '../../assets/images/Arghya Pal Resume.pdf'
 import log from '../../assets/images/IMG_20210627_103809@.jpg'
 
 const Home = () => {

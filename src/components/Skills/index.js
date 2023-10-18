@@ -96,7 +96,7 @@ const Skills = () => {
         <div className="a">
           <Tagcloud />
         </div>
-        <div id="cube" className="stage-cube-cont">
+        {/* <div id="cube" className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faPython} color="#DD0031" />
@@ -117,7 +117,7 @@ const Skills = () => {
               <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>
