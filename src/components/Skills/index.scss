@@ -35,6 +35,10 @@ a {
     height: 100%;
 }
 
+#cube{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 1200px) {
@@ -63,8 +67,10 @@ a {
     }
     #cube{
     // top: 50%;
-    position: relative;
-    display: block;
+    position: absolute;
+    display: inline;
+    bottom: 20px;
+    // display: block;
 }
    .a{
     display: none;

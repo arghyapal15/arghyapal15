@@ -1,0 +1,125 @@
+.home-page .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.home-page h1 {
+  color: #fff;
+  font-size: 56px;
+  line-height: 53px;
+  margin: 0;
+  font-family: "Coolvetica";
+  font-weight: 400;
+}
+.home-page h1:before {
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -40px;
+  left: -15px;
+}
+.home-page h1:after {
+  content: "<h1/>";
+  font-family: "La Belle Aurore", cursive;
+  color: #ffd700;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 20px;
+  animation: fadeIn 1s 1.7s backwards;
+}
+.home-page h1 img {
+  margin-left: 20px;
+  opacity: 0;
+  width: 60px;
+  height: auto;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+}
+.home-page h2 {
+  color: white;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+.home-page .flat-button {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-right: 20px;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+}
+.home-page .flat-button:hover {
+  background: #ffd700;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    position: absolute;
+    height: auto;
+    min-height: auto;
+    top: 18%;
+    left: 10%;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .home-page .text-zone {
+    position: initial;
+    width: 100%;
+    transform: none;
+    box-sizing: border-box;
+    height: 80%;
+    top: 50%;
+  }
+  .home-page .text-zone h1 {
+    color: #fff;
+    font-size: 38px;
+  }
+  .home-page .text-zone img {
+    width: 40px;
+  }
+  .home-page .text-zone h2 {
+    font-size: 10px;
+  }
+  .home-page .flat-button {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 124px;
+  }
+  .logo-container {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: 50px;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    left: 0;
+  }
+  .logo-container svg {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+  }
+}/*# sourceMappingURL=home.css.map */

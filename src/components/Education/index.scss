@@ -160,6 +160,10 @@
 
 @media screen and (max-width: 350px)  {
     .education-page{
+        .education-details {
+    margin-left: 0.6rem;
+    line-height: 1rem;
+}
         .text-zone{
             
             h1{
@@ -168,7 +172,7 @@
             .card{
                 width: 90%;
                     height: fit-content;
-                    padding: 0.5rem;
+                    padding: 0.2rem;
                     margin-bottom: 1rem;
                 .card-item{
                     width: 90%;

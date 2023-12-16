@@ -59,7 +59,7 @@ const Skills = () => {
             <span class="tech-tag"> ReactJS</span>,
             <span class="tech-tag"> TypeScript</span>,
             <span class="tech-tag"> Bootstrap</span>,
-            <span class="tech-tag"> Git</span>, etc.
+            <span class="tech-tag"> Git</span>.
           </p>
           <p>
             I’m not a designer but I have a good sense of aesthetics, and
@@ -98,7 +98,7 @@ const Skills = () => {
         <div className="a">
           <Tagcloud />
         </div>
-        {/* <div id="cube" className="stage-cube-cont">
+        <div id="cube" className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faPython} color="#DD0031" />
@@ -119,7 +119,7 @@ const Skills = () => {
               <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <Loader type="pacman" />
     </>

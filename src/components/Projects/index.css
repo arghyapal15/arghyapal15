@@ -1,0 +1,171 @@
+.projects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5rem 0;
+  animation: bounceIn;
+}
+
+.cards {
+  background-color: rgba(254, 27, 27, 0.5803921569);
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 1.4rem 2rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0 8rem 0 0;
+  animation-delay: 1s !important;
+}
+
+.headi {
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headi h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 110%;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.headi img {
+  width: 100%;
+  height: 60%;
+  transition: opacity 0.7s 0.3s;
+}
+
+.project--showcaseBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon {
+  font-size: 3rem;
+  margin: 1rem 0 0 0;
+  color: white;
+}
+
+.cards .project--desc {
+  position: absolute;
+  width: 85%;
+  height: 30%;
+  left: 0;
+  top: 2%;
+  transform: translate(-110%, 40%);
+  padding: 1rem 2rem;
+  border-radius: 0 20px 20px 0;
+  transition: transform 0.9s;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--primaryFont);
+  background: rgb(234, 234, 234);
+  align-items: center;
+}
+
+.cards:hover .project--desc {
+  transform: translate(-2%, 40%);
+}
+
+.cards .project--lang {
+  position: absolute;
+  bottom: 12%;
+  right: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  border-radius: 10px 0 0 10px;
+  transform: translateX(100%);
+  transition: transform 0.5s 0.3s;
+  padding: 1rem 4rem;
+}
+
+.cards:hover .project--lang {
+  transform: translateX(0);
+}
+
+.project--lang > span {
+  font-weight: 500;
+  word-break: break-word;
+  line-height: 100%;
+}
+
+.cards p {
+  font-size: 1.5rem !important;
+  background: white;
+  color: black !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .container.portfolio-page .text-zone {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .container.portfolio-page .text-zone h1 {
+    font-size: 43px;
+  }
+  .container.portfolio-page .text-zone .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    grid-gap: 4.5rem;
+    gap: 4.5rem;
+  }
+  .container.portfolio-page .text-zone .projects .cards {
+    width: 80%;
+    margin: 0 25px 0rem 0rem;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi h3 {
+    font-size: 1.5rem;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn .icon {
+    font-size: 2.5rem;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn .project--desc {
+    left: 0;
+    width: 85%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn #a {
+    top: 10%;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn #b {
+    top: -1rem;
+    font-size: 1rem !important;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn #c {
+    top: 5%;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn #c1 {
+    font-size: 1.5rem !important;
+  }
+  .container.portfolio-page .text-zone .projects .cards .headi .project--showcaseBtn .project--lang {
+    position: absolute;
+    bottom: 15%;
+  }
+}/*# sourceMappingURL=index.css.map */

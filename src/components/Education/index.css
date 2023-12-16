@@ -1,0 +1,177 @@
+.education-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  height: 140px;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  transition: background-color 200ms ease-in-out;
+  animation-delay: 5s;
+}
+
+.educard-img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: white;
+  margin: 2rem 1rem 0 0;
+}
+
+.educard-img > img {
+  width: 40px;
+}
+
+.education-details {
+  margin-left: 0.6rem;
+  line-height: 0.2rem;
+}
+
+.education-details > h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.education-details > h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.education-details > h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.education-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(-50%);
+  left: 25%;
+  top: 50%;
+  vertical-align: middle;
+  max-height: 90%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.education-image > img {
+  width: 30%;
+}
+
+.card-item {
+  z-index: 99;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: background-color 200ms ease-in-out;
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 5000ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation: bounceIn;
+}
+.card-item:hover {
+  background-color: #2f2f2f;
+}
+.card-item:hover h6, .card-item:hover h5, .card-item:hover h4 {
+  color: #ffd700;
+}
+
+@media screen and (max-width: 1200px) {
+  .education-page .text-zone {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .education-page .text-zone h1 {
+    font-size: 40px;
+  }
+  .education-page .text-zone .card {
+    padding: 0;
+    margin: 0;
+  }
+  .education-page .text-zone .card .card-item {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .education-page .text-zone .card .card-item img {
+    width: 40px;
+    height: 40px;
+  }
+  .education-page .text-zone .card .card-item .education-details h6 {
+    font-size: 0.8rem;
+  }
+  .education-page .text-zone .card .card-item .education-details h4 {
+    font-size: 1rem;
+  }
+  .education-page .text-zone .card .card-item .education-details h5 {
+    font-size: 0.9rem;
+  }
+  .education-page .education-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+  .education-page .education-details {
+    margin-left: 0.6rem;
+    line-height: 1rem;
+  }
+  .education-page .text-zone h1 {
+    font-size: 40px;
+  }
+  .education-page .text-zone .card {
+    width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .education-page .text-zone .card .card-item {
+    width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .education-page .text-zone .card .card-item img {
+    width: 40px;
+    height: 40px;
+  }
+  .education-page .text-zone .card .card-item .education-details h6 {
+    font-size: 5px;
+  }
+  .education-page .text-zone .card .card-item .education-details h4 {
+    font-size: 10px;
+  }
+  .education-page .text-zone .card .card-item .education-details h5 {
+    font-size: 7px;
+  }
+}/*# sourceMappingURL=index.css.map */
