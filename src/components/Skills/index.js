@@ -48,11 +48,13 @@ const Skills = () => {
 
           <p>
             Expert in front-end development including technologies like
-            <span class="tech-tag"> C++</span>,
-            <span class="tech-tag"> Python</span>,
-            <span class="tech-tag"> C</span>,
+            <span class="tech-tag"> C++</span>,<span class="tech-tag"> C</span>,
             <span class="tech-tag"> Html5</span>,
             <span class="tech-tag"> CSS</span>,
+            <span class="tech-tag"> PhP</span>,
+            <span class="tech-tag"> SCSS</span>,
+            <span class="tech-tag"> Tailwind CSS</span>,
+            <span class="tech-tag"> MySQL</span>,
             <span class="tech-tag"> JavaScript</span>,
             <span class="tech-tag"> ReactJS</span>,
             <span class="tech-tag"> TypeScript</span>,
